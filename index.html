@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sayali</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    
+</head>
+<body>
+    <script src="index.js"></script>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="logo.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>WEB-DEVELOPER</p>
+                <H1>Hi,I'm <span>Sayali</span><br>From Pune.</H1>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="" alt="">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>Currently Persuing Third Year Computer Science Engineering at Dy Patil College of Engineering Manegement And Research,Akurdi,Pune.I am always Ready to have New Experiences,Meet new People and learn New things.I find Idea of Creating People and impacting the World through My Work Gratifying.My Greatest Strength is I'm always devoted to things that I work on other Than this I'm helpful to others and I can Adapt Quickly to any Environment and I adjust to any and group of People,also I'm Improving Person,I always want to Improve myself and I'm hardworking and Passionate about my work.</p>
+
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Languages Learned</span><br>For website building</li>
+                        <li><span>Javascript</span><br>Native</li>
+                        <li><span>React Js</span><br>Intermediate</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>Web Development</span><br>Interface Designing</li>
+                        <li><span>Data Structure And Algorithm</span><br>Problem Solving</li>
+                        <li><span>Competitive Coding</span><br>Codechef</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>Dy Patil Institute Of Engineering manegement and Research</span><br>Computer Engineering</li>
+                        <li><span>Fergussion College,Pune</span><br>HSC Eduction</li>
+                        
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!---------services--------->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list"> 
+            <div>
+                <i class="fa-solid fa-code-branch"></i>
+                <h2>Web Design</h2>
+                <p>I'm Currently Learning React Js for Web Designing. I have already Learned Javascript and also Develop Project related to Javascript.
+                    check my Github for project.
+                </p>
+                <a href="#">learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>DSA</h2>
+                <p>I have Completed My DSA Certified Course From Udemy Of Mastering Data Structure And Algorithm By Abdul Bari</p>
+                <a href="#">learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-laptop-code"></i>
+                <h2>Competitive coding</h2>
+                <p>Currently I'm having Two Stars on Codechef platform.For Data Structure And Algorithm I'm Practicing on GFG</p>
+                <a href="#">learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!---------------portfolio---------------->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Project</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="work-1.png" >
+                <div class="layer">
+                    <h3>Travelify Website</h3>
+                    <p>I have Used React Js For this Website in which All the Information about Places to Visit in Pune Or nearby Pune.
+                    </p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="work-2.png">
+                <div class="layer">
+                    <h3>Movie Website</h3>
+                    <p>I have used Javascript for Creating this Website.In this Website you will find Movie Reviews which are really helpful.
+                    </p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="work-3.png">
+                <div class="layer">
+                    <h3>Spotify Clone Website</h3>
+                    <p>As name suggest this Website is about Spotify Clone.
+                    </p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See More</a>
+    </div>
+</div>
+
+<!------------contact----------->
+ <div id="contact">
+     <div class="container">
+        <div class="row">
+           <div class="contact-left">
+            <h1 class="sub-title">Contact Me</h1>
+            <p><i class="fa-solid fa-paper-plane"></i>Sayalibankar571@gmail.com</p>
+            <p><i class="fa-solid fa-phone"></i>9165899063</p>
+
+             <div class="social-icons">
+                <a href="https://instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://linkedin.com/"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://twitter.com/"><i class="fa-brands fa-twitter"></i></a>
+             </div>
+             <a href="Sayali Bankar Resume.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                <input type="text" name="Name" placeholder="Your Name" required></input>
+                <input type="email" name="email" placeholder="Your Email" required></input>
+                <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+     </div>
+     <div class="copyright">
+            <p>Copyright © Sayali.</p>
+     </div>
+ </div>
+
+</body>
+</html>
